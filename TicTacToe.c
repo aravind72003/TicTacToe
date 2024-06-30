@@ -86,9 +86,9 @@ void playerMove(){
 
     do{
         printf("Enter row #[1-3]: ");
-        scanf("%d",&x);
-        printf("Enter column #[1-3]: ");
         scanf("%d",&y);
+        printf("Enter column #[1-3]: ");
+        scanf("%d",&x);
         x--;
         y--;
         if(board[x][y]!=' ' || x<0 || x>2 || y<0 || y>2)
